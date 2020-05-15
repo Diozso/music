@@ -1,0 +1,53 @@
+body {
+		margin:  0;
+		background: repeating-linear-gradient(180deg, white, white 20px, black 8px, black 21px);
+		background-attachment: fixed;
+}
+.parallax-container{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	overflow: hidden;
+         
+}
+.parallax-item{
+	position: absolute;
+	top: 10%;
+	left:  10%;
+	/*pos csak akkor lehet absolute, ha a felette lévő div relative*/
+	width: 300px;
+	height: 300px;	
+	
+}
+.note{
+	width: 100%;
+	height: 100%;
+	background: url('note1.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	text-align: center;
+
+}
+
+.MusicPlayer{
+	position: absolute;
+	width: 40vw;
+	height: 30vh;
+	background-color: white;
+	text-align: center;
+	border-style: outset;
+	top: 33%;
+	left: 33%
+
+}
+
+h1 {
+	text-align: center;
+	vertical-align: center;
+	background-position: center;
+}
+
+audio{
+	padding-left: 115px;
+}
